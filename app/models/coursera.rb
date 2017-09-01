@@ -1,6 +1,3 @@
-require 'httparty'
-require 'pp'
-
 class Coursera
   include HTTParty
 
@@ -14,4 +11,4 @@ class Coursera
   end
 end
 
-pp Coursera.for "python"
+
